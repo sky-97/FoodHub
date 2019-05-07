@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class=container"">
+  <body style="background-color:#001f3f;">
+<!-- <h1><font color="brown"><center>FoodHub</font></center></h1> -->
+    <center><font color="white"><span style="font-weight:bold"><h1>foodhub</h1></font></span></center>
+        <div id="intro" style="background-image:url('https://coverfiles.alphacoders.com/534/53404.jpg'); padding:50px;width:1500px;height:450px;border:1px solid black;background-repeat:no-repeat;filter:blur(0px);-webkit-filter: blur(0px); ">
+        </div>
+<br>
+  <form class="" action="/food" method="post">
+    <div class="input-group col-md-4 mx-auto">
+      <input class="form-control py-2" type="search" name="search" value="search" id="example-search-input">
+            <span class="input-group-append">
+                <button class="btn btn-success btn-md" type="submit">
+                    <i class="fa fa-search"></i>
+                          find food
+                </button>
+            </span>
+    </div>
+  </form>
+<br>
+<div class="text-center">
+<img src="https://1.bp.blogspot.com/-iMz6XUSWH9g/XESTMaVBySI/AAAAAAAABFY/jEaw0v4jIHwbG1IkRxN_XJ9OibD0nQqmQCLcBGAs/s640/Is%2BUber%2BEats%252C%2BZomato%2Band%2BSwiggy%2Bworth%2Bit%2Bfor%2Bthe%2Brestaurant.jpg
+" alt="">
+</div>
+<br>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="https://www.foodboss.com/images/how-it-works-search2.svg" alt="Card image cap">
+    <div class="card-body">
+      <h3 class="card-title">Search</h3>
+      <p class="card-text">Search your food you want, See every restaurant that delivers to your area</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"></small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="w-575 p-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsrc5fxOtFqZeIFf4Oo4nMIRjEpO75y_UZ8zYHDaX07ZHfzGzXzw" alt="Card image cap">
+    <div class="card-body">
+      <h3 class="card-title">Compare</h3>
+      <p class="card-text">Side-by-side fees including delivery charge for 1 plate, make it easy to compare the delivery options for any restaurant</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"></small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://www.foodboss.com/images/how-it-works-save.svg" alt="Card image cap">
+    <div class="card-body">
+      <h3 class="card-title">Save</h3>
+      <p class="card-text">Get the best deal in food delivery Apps  and get your food while saving time, money, or both!</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"></small>
+    </div>
+  </div>
+</div>
+{% endblock body %}
