@@ -38,4 +38,4 @@ What things you need to install the software and how to install them
 
 As i am following MVC Model-View-Controller framework MVC Controllers are responsible for controlling the flow of the application execution. When you make a request (means request a page) to MVC application, a controller is responsible for returning the response to that request, Here app.py is my controller thats why i am runing app.py file
 
-![alt text](https://ibb.co/GVmDnRt)
+* <img src="flask_project/Screenshot from 2019-05-08 11-10-11.png" alt="alt text" width="600">
