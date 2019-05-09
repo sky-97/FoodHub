@@ -1,4 +1,4 @@
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOSKgCL02z_NzBLQCUxZuHglfbS7dlPgN9lc-fn8yc5qdm9gt8)
+![alt text](https://github.com/akashcoc/FoodHub/blob/master/logo_updated.png?raw=true)
 
 # FoodHub
 
