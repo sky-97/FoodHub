@@ -7,6 +7,7 @@
 
 Foodhub is a food search with an extensive price comparison. The prices shown come from various food ordering  websites like ZOMATO, SWIGGY, Ubereats. This means that while users decide on foodhub which food ordering website best suits their needs, the ordering process itself is completed through the booking sites (which are linked to our website).
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
@@ -86,6 +87,18 @@ As i am following MVC Model-View-Controller framework MVC Controllers are respon
 * Zomato showing best deal, so click on zomato
 
 ![alt text](https://raw.githubusercontent.com/akashcoc/FoodHub/master/flask_project/Screenshot%20from%202019-05-09%2019-30-02.png)
+
+## Built With
+ 
+ [Flask](http://flask.pocoo.org/)
+ 
+ [SQLite](https://www.sqlite.org/index.html)
+ 
+ [MVC](https://flask-diamond.readthedocs.io/en/latest/model-view-controller/)
+ 
+ [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+ 
+ [Bootstrap](https://getbootstrap.com/)
 
 
 
