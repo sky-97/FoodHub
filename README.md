@@ -1,4 +1,4 @@
-![alt text](https://github.com/akashcoc/FoodHub/blob/master/facebook_profile_image.png?raw=true)
+![alt text](https://raw.githubusercontent.com/akashcoc/FoodHub/master/pinterest_profile_image.png)
 
 # FoodHub
 
