@@ -1,4 +1,4 @@
-![alt text](https://github.com/akashcoc/FoodHub/blob/master/logo_updated.png?raw=true)
+![alt text](https://github.com/akashcoc/FoodHub/blob/master/facebook_profile_image.png?raw=true)
 
 # FoodHub
 
@@ -21,14 +21,17 @@ What things you need to install the software and how to install them
 
 ## File Structure
 
-    ├── app.py
-    ├── food.db
-    ├── model.py
-    |
-    └── templates
-        ├── base.html
-        ├── food.html
-        └── home.html 
+|FoodHub──
+    |flask_project──
+                ├── app.py
+                ├── food.db
+                ├── model.py
+                |
+                └── templates
+                ├── base.html
+                ├── food.html
+                └── home.html 
+   
 
 ##### app.py is a controller in which all logics are there, model.py is a model file in which all database insert create and querry codes are there, temaplates is a folder inside which there is view files.
 
@@ -39,3 +42,9 @@ What things you need to install the software and how to install them
 As i am following MVC Model-View-Controller framework MVC Controllers are responsible for controlling the flow of the application execution. When you make a request (means request a page) to MVC application, a controller is responsible for returning the response to that request, Here app.py is my controller thats why i am runing app.py file
 
 * <img src="flask_project/Screenshot from 2019-05-08 11-10-11.png" alt="alt text" width="600">
+
+``` http://127.0.0.1:5000/home ```
+
+##### Add this url to your Browser
+    
+    ![alt text](
