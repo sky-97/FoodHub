@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% block body %}
+
+{% if todos %}
 <body style="background-color:#D5F5E3;">
 <br>
 <br>
@@ -8,17 +10,17 @@
     <select name="search">
       <option value = "Paradise">Paradise</option>
       <option value = "Aaha Andhra">Aaha Andhra</option>
-      <option value = "Donne Biryani">Donne Biryani</option>
+      <option value = "Donne Biryani Mane">Donne Biryani Mane</option>
       <option value = "Nagarjuna">Nagarjuna</option>
       <option value = "Donne Biryani">Donne Biryani</option>
       <option value = "Behrouz Biryani">Behrouz Biryani</option>
       <option value = "BOX8- Desi Meals">BOX8-Desi Meals</option>
       <option value = "Ambur Biryani">Ambur Biryani</option>
-      <option value = "Meghana foods">Meghana foods</option>
+      <option value = "Meghana Foods">Meghana Foods</option>
       <option value = "Nandhan Palace">Nandhan Palace</option>
       <option value = "Dindigul Thalappakatti">Dindigul Thalappakatti</option>
       <option value = "Tandoori Taal">Tandoori Taal</option>
-      <option value = "Biryani Taal">Biryani Taal</option>
+      <option value = "Biryani Trip">Biryani Trip</option>
       <option value = "Anjappar">Anjappar</option>
       <option value = "Tunday Kababi">Tundav Kababi</option>
     </select>
@@ -84,4 +86,18 @@
       </div>
     </div>
   </div>
+
+  
+  <footer>
+		<nav>
+			<p>
+				<a href="https://www.tutorialrepublic.com/terms-of-use.php">Terms of Use</a> |
+				<a href="https://www.tutorialrepublic.com/privacy-policy.php">Privacy Policy</a>
+			</p>
+		</nav>
+		<p>Copyright &copy; 2014 Tutorial Republic</p>
+	</footer>
+
+
+{% endif %}
 {% endblock body %}
