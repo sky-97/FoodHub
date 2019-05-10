@@ -35,11 +35,11 @@ What things you need to install the software and how to install them
                 |
                 └── templates
                 
-                ├── base.html
+                    ├── base.html
                 
-                ├── food.html
+                    ├── food.html
                 
-                └── home.html 
+                    └── home.html 
    
 
 ##### app.py is a controller in which all logics are there, model.py is a model file in which all database insert create and querry codes are there, temaplates is a folder inside which there is view files.
