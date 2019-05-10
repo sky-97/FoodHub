@@ -22,9 +22,9 @@ What things you need to install the software and how to install them
 
 ## File Structure
 
-|FoodHub──
+    |FoodHub──
 
-    |flask_project──
+        |flask_project──
     
                 ├── app.py
                 
