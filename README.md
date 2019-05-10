@@ -5,7 +5,7 @@
 
 ## FoodHub Application
 
-Foodhub is a food search with an extensive price comparison. The prices shown come from various food ordering  websites like ZOMATO, SWIGGY, Ubereats. This means that while users decide on foodhub which food ordering website best suits their needs, the ordering process itself is completed through the booking sites (which are linked to our website).
+Foodhub is a food search with an extensive price comparison. The prices shown come from various food ordering  websites like Zomato, Swiggy, Ubereats. This means that while users decide on foodhub which food ordering website best suits their needs, the ordering process itself is completed through the booking sites (which are linked to our website).
 
 
 ## Getting Started
